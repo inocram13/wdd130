@@ -18,6 +18,7 @@ body{
     --nav-link-color:#6B9AC4;
     --nav-hover-link-color:#F4B942;
     --nav-hover-background-color:#EFF2f1;
+}
     body{
         font-family: var(--paragraph-font);
         max-width: 960px;
@@ -46,7 +47,7 @@ body{
         padding: 1rem;
     }
     nav a:link,nav a:visited{
-        color: {var(--nav-link-color)};
+        color: var(--nav-link-color);
     }
     nav a:hover{
         color: var(--nav-hover-link-color);
