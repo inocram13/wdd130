@@ -2,8 +2,7 @@
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
-}
+    padding: 20px;}
 :root{
     --primary-color:#4059AD;
     --secondary-color:#6B9AC4;
@@ -17,8 +16,7 @@ body{
     --nav-backgound-color:#97D8C4;
     --nav-link-color:#6B9AC4;
     --nav-hover-link-color:#F4B942;
-    --nav-hover-background-color:#EFF2f1;
-}
+    --nav-hover-background-color:#EFF2f1;}
     body{
         font-family: var(--paragraph-font);
         max-width: 960px;
