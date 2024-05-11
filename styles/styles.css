@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:#FAF9F6 ;
+}
 main{
     max-width: 840px;
 }
@@ -11,8 +14,8 @@ aside{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #eeeeee;
+    color: #000000;
     text-align: center;
     position: relative;
 }
@@ -36,7 +39,7 @@ nav {background-color: steelblue    ;
 }
 
 nav a{
-    color: white;
+    color: rgb(17, 13, 13);
     display: block;
     padding: 20px;
 }
@@ -63,6 +66,7 @@ footer{
     margin-bottom: 1rem;
     border: 1px solid rgba(219, 201, 201, 0.1);
     padding: 1rem;
-    background-color: rgb(226, 74, 193);
-    color: gainsboro;
+    background-color: rgb(132, 199, 238);
+    color: rgb(10, 9, 9);
 }
+
