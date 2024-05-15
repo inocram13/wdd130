@@ -72,9 +72,7 @@ p {
 }
 footer, .grid, header{
     max-width: 840px;
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+    margin: 0 auto
 }
 /* Class Selectors */
 .box {
