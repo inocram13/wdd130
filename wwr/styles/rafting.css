@@ -11,7 +11,33 @@
     --nav-hover-link-color:#F4B942;
     --nav-hover-background-color:#EFF2f1;
 }
+header{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 20px;
+}
+header img{
+    max-height: 50px;
+}
 
+nav{
+    display: flex ;
+    justify-content: flex-end;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: var(--accent3-color);
+}
 .hero{
     position: relative;
 }
@@ -61,7 +87,17 @@ article p{
 }
 footer{
         margin-top: 15px;
-        border-top: 1px solid #000;
-        text-align: center;
-        text-decoration: none;
+}
+.history-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.history-section h2{
+margin-bottom: 20px;
+}
+.history-section p{
+    max-width: 60px;
 }
