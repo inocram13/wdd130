@@ -31,6 +31,7 @@ header img{
 nav{
     display: flex ;
     justify-content: flex-end;
+    align-items: center;
 }
 img{
     max-width: 100%;
@@ -91,11 +92,22 @@ article p{
 .container{
     position: relative;
 }
+.adventure-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px
+}
+.adventure-section img{
+    width: 100%;
+    height: auto;
+}
 footer{
     background-color: var(--secondary-color);
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 .sociallinks{
     display: flex;
@@ -115,5 +127,5 @@ footer{
 margin-bottom: 20px;
 }
 .history-section p{
-    max-width: 60px;
+    max-width: 600px;
 }
