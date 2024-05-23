@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 :root{
-    --primary-color:#4059AD;
-    --secondary-color:#6B9AC4;
-    --accent1-color:#97D8C4;
-    --accent2-color:#EFF2f1;
-    --accent3-color:#F4B942;
+    --primary-color:#3A519C;
+    --secondary-color:#31597C;
+    --accent1-color:#235C4B;
+    --accent2-color:#3E5656;
+    --accent3-color:#665415;
 
-    --nav-backgound-color:#97D8C4;
-    --nav-link-color:#6B9AC4;
-    --nav-hover-link-color:#F4B942;
-    --nav-hover-background-color:#EFF2f1;
+    --nav-backgound-color:#FFFFFF;
+    --nav-link-color:#31597C;
+    --nav-hover-link-color:#665415;
+    --nav-hover-background-color:#3E5656;
 }
 body{
     margin: 0;
@@ -84,7 +84,7 @@ article{
     left: 0;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    color: #EFF2f1;
+    color: #FFFFFF;
 }
 article p{
     margin-right: 100px;
@@ -93,21 +93,37 @@ article p{
     position: relative;
 }
 .adventure-section{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
-.adventure-section img{
-    width: 100%;
-    height: auto;
+.adventure-section h2{
+    margin-bottom: 20px;
+}
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.images-container figure{
+    text-align: center;
+    margin: 0 10px;
+}
+.images-container img{
+    width: 200px;
 }
 footer{
     background-color: var(--secondary-color);
     padding: 20px;
+}
+.footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: right;
+    text-align: center;
+    margin: 0 10px;
+    
 }
 .sociallinks{
     display: flex;
@@ -128,4 +144,35 @@ margin-bottom: 20px;
 }
 .history-section p{
     max-width: 600px;
+}
+.history-section {
+    text-align: center; 
+}
+
+.image-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.text-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.left-text, .right-text {
+    flex-basis: 45%;
+}
+
+.left-text p, .right-text p {
+    margin: 0;
+    text-align: left;
 }
