@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="poll-form.css"> 
 <head>
 <body>
 <header>
@@ -26,20 +27,22 @@
             <div class="container column1">
                 <label for="browser">What is your favorite internet browser?</label>
                 <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Brave</option>
-                <option value="other">Other</option>
-            </select>
             <div class="container column1">
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
             </div>
-            <label for="feedback">List the places you have lived:</label>
-            <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, TIbuktu Mali"></textarea>
+            <div class="container column1"></div>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, TIbuktu Mali"></textarea>
+            </div>
             <button type="submit">Submit Poll</button>
         </fieldset>
     </form>

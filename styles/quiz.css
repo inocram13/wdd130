@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: navy;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+fieldset {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+input, select, textarea, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+}
+
+input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin: 1rem;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+}
