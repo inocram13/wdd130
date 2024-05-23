@@ -102,3 +102,6 @@ footer {
     border-top: 1px solid #ccc;
     padding-top: 1rem;
 }
+textarea{
+    background-color: #333;
+}
