@@ -6,7 +6,7 @@
     <meta name="description" content="Contact Us">
     <meta name="author" content="Kieth Marconi Acosta">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title> Contact Us</title>
+    <title> Contact Us, Amazing Water Rafting Co.</title>
 </head>
 <body>
     <header>
@@ -30,19 +30,23 @@
             </article>
         </div>
         <section class="contact us"></section>
-            <form action="/submit-form" method="post">
-                <div class="form-container">
-                    <fieldset>
-                        <legend>Contact Information</legend>
-                        <div class="for-item column 1">
-                            <label for="fullname">Fullname</label>
-                            <input type="text" id="fullname" name="fullname">
-                            <label for="Email">E-mail</label>
-                            <input type="text" id="email" name="email">
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Purpose of the Message</legend>
+            <div class="form-container"></div>
+                <div>
+                    <div class="contact-us-logo">
+                        <img src="images/contact_logo.png" alt="" width="50">
+                    </div>
+                    <form action="/submit-form" method="post">
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <div class="for-item column 1">
+                                <label for="fullname">Fullname</label>
+                                <input type="text" id="fullname" name="fullname">
+                                <label for="Email">E-mail</label>
+                                <input type="text" id="email" name="email">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Purpose of the Message</legend>
                             <p>Select the purpose of your message</p>
                             <label>
                                 <input type="radio" name="purpose" value="General Inquiry" required>
@@ -56,47 +60,44 @@
                                 <input type="radio" name="purpose" value="Website Suggestion" required>
                                 Website Suggestion
                             </label>
-                        </form>
-                    </fieldset>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Message</legend>
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <label>
+                                <input type="checkbox" name="subscribe" value="yes">
+                                Please subscribe me the monthly newsletter
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="Submit Your Response Here">
+                    </form>
                 </div>
-                <fieldset>
-                    <legend>Message</legend>
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                    <label>
-                        <input type="checkbox" name="subscribe" value="yes">
-                        Please subscribe me the monthly newsletter
-                    </label>
-                </fieldset>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </div>
-    <div class="company-info">
-        <h2>Company Information</h2>
-        <address>
-            <strong>Address:</strong>
-            Calatagan, Batangas
-        </address>
-        <p>
-            <strong>Phone:</strong>
-            09071669151
-        </p>
-        <p>
-            <strong>Email:</strong>
-            amazingwaterraftingco@gmail.com
-        </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123963.92593233277!2d120.51180447032993!3d13.846679839544674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bdbb765bc1c325%3A0xacfaf64661afb209!2sFloating%20Raft!5e0!3m2!1sen!2sph!4v1716890096500!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-</main>
+                <div class="company-info">
+            <h2>Company Information</h2>
+            <address>
+                <strong>Address:</strong>
+                Calatagan, Batangas
+            </address>
+            <p>
+                <strong>Phone:</strong>
+                09071669151
+            </p>
+            <p>
+                <strong>Email:</strong>
+                amazingwaterraftingco@gmail.com
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123963.92593233277!2d120.51180447032993!3d13.846679839544674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bdbb765bc1c325%3A0xacfaf64661afb209!2sFloating%20Raft!5e0!3m2!1sen!2sph!4v1716890096500!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
     <footer class="footer">
         <p> &copy; 2024 😎 Kieth Marconi Acosta 😎 Cavite, Philippines</p>
         <div class="social-links-container">
-        <nav class="sociallinks">
-            <a href="https://facebook.com"><img src="images/fb.jpg" alt="facebook" width="50"></a>
-            <a href="https://instagram.com"><img src="images/ig.jpg" alt="instagram" width="50"></a>
-            <a href="https://threads.net"><img src="images/thread.jpg" alt="thread" width="50"></a>
-        </nav>
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/fb.jpg" alt="facebook" width="50"></a>
+                <a href="https://instagram.com"><img src="images/ig.jpg" alt="instagram" width="50"></a>
+                <a href="https://threads.net"><img src="images/thread.jpg" alt="thread" width="50"></a>
+            </nav>
         </div>
     </footer>
 </body>
