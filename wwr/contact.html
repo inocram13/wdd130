@@ -17,77 +17,80 @@
         <a href="trips.html">Trips</a>
         <a href="contact.html">Contact Us</a>
     </nav>
-</header>
-<main>
-    <div class="container">
-        <div class="hero">
-            <img src="images/water_rafting.jpg" alt="" width="1000">
-            <h1>Amazing Water Rafting Co.</h1>
-            <article>
-                <h2>Customer Review</h2>
-                <img src="images/happy_customer.jpg" alt="" width="200">
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ipsam incidunt sunt eius pariatur debitis recusandae distinctio, voluptatum atque! Sed quibusdam nisi repudiandae ratione aliquid necessitatibus assumenda ullam praesentium odit.</p>
-            </article>
-        </div>
-        <section class="contact us"></section>
-            <div class="form-container"></div>
-                <div>
-                    <div class="contact-us-logo">
-                        <img src="images/contact_logo.png" alt="" width="50">
+    </header>
+    <main>
+        <div class="container">
+            <div class="hero">
+                <img src="images/water_rafting.jpg" alt="" width="1000">
+                <h1>Amazing Water Rafting Co.</h1>
+                <article>
+                    <h2>Customer Review</h2>
+                    <img src="images/happy_customer.jpg" alt="" width="200">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ipsam incidunt sunt eius pariatur debitis recusandae distinctio, voluptatum atque! Sed quibusdam nisi repudiandae ratione aliquid necessitatibus assumenda ullam praesentium odit.</p>
+                </article>
+            </div>
+            <section class="contact us"></section>
+                <div class="form-container"></div>
+                    <div>
+                        <div class="contact-us-logo">
+                            <img src="images/contact_logo.png" alt="" width="50">
+                        </div>
+                        <form action="/submit-form" method="post">
+                            <fieldset>
+                                <legend>Contact Information</legend>
+                                <div class="for-item column 1">
+                                    <label for="fullname">Fullname</label>
+                                    <input type="text" id="fullname" name="fullname">
+                                    <label for="email">E-mail</label>
+                                    <input type="text" id="email" name="email">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Purpose of the Message</legend>
+                                <p>Select the purpose of your message</p>
+                                <label>
+                                    <input type="radio" name="purpose" value="General Inquiry" required>
+                                    General Inquiry
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="Reservation Question" required>
+                                    Reservation Question
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="Website Suggestion" required>
+                                    Website Suggestion
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Message</legend>
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <label>
+                                    <input type="checkbox" name="subscribe" value="yes">
+                                    Please subscribe me the monthly newsletter
+                                </label>
+                            </fieldset>
+                            <input type="submit" value="Enter your Response">
+                        </form>
                     </div>
-                    <form action="/submit-form" method="post">
-                        <fieldset>
-                            <legend>Contact Information</legend>
-                            <div class="for-item column 1">
-                                <label for="fullname">Fullname</label>
-                                <input type="text" id="fullname" name="fullname">
-                                <label for="Email">E-mail</label>
-                                <input type="text" id="email" name="email">
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Purpose of the Message</legend>
-                            <p>Select the purpose of your message</p>
-                            <label>
-                                <input type="radio" name="purpose" value="General Inquiry" required>
-                                General Inquiry
-                            </label>
-                            <label>
-                                <input type="radio" name="purpose" value="Reservation Question" required>
-                                Reservation Question
-                            </label>
-                            <label>
-                                <input type="radio" name="purpose" value="Website Suggestion" required>
-                                Website Suggestion
-                            </label>
-                        </fieldset>
-                        <fieldset>
-                            <legend>Message</legend>
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" required></textarea>
-                            <label>
-                                <input type="checkbox" name="subscribe" value="yes">
-                                Please subscribe me the monthly newsletter
-                            </label>
-                        </fieldset>
-                        <input type="submit" value="Submit Your Response Here">
-                    </form>
+                    <div class="company-info">
+                        <h2>Company Information</h2>
+                        <address>
+                            <strong>Address:</strong>
+                            Calatagan, Batangas
+                        </address>
+                        <p>
+                        <strong>Phone:</strong>
+                        09071669151
+                        </p>
+                        <p>
+                        <strong>Email:</strong>
+                        amazingwaterraftingco@gmail.com
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123963.92593233277!2d120.51180447032993!3d13.846679839544674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bdbb765bc1c325%3A0xacfaf64661afb209!2sFloating%20Raft!5e0!3m2!1sen!2sph!4v1716890096500!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-                <div class="company-info">
-            <h2>Company Information</h2>
-            <address>
-                <strong>Address:</strong>
-                Calatagan, Batangas
-            </address>
-            <p>
-                <strong>Phone:</strong>
-                09071669151
-            </p>
-            <p>
-                <strong>Email:</strong>
-                amazingwaterraftingco@gmail.com
-            </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123963.92593233277!2d120.51180447032993!3d13.846679839544674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bdbb765bc1c325%3A0xacfaf64661afb209!2sFloating%20Raft!5e0!3m2!1sen!2sph!4v1716890096500!5m2!1sen!2sph" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
         </div>
     </main>
     <footer class="footer">
